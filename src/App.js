@@ -20,3 +20,5 @@ function App() {
 export default App;
 
 // App-->Homepage-->Directory-->Menu-Item-->
+// |
+// -->Shop-Component-->Collection-Preview-->Collection-Item

@@ -30,5 +30,6 @@ export default App;
 // -->Header
 // |
 // -->Sign-in-and-sign-up-->Sign-in-->Form-input
-//                       |
-//                       -->Sign-up
+//                       |          |
+//                       Sign-up--> |
+//                                  Custom-button

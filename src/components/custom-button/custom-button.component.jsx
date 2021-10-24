@@ -4,7 +4,7 @@ import './custom-button.styles.scss';
 
 const CustomButton = ({ children, isGoogleSignIn, ...otherProps }) => {
 //   console.log('children: ', children);
-//   console.log('otherProps: ', otherProps);
+  // console.log('otherProps: ', otherProps);
   return (
     <button
         className={`${isGoogleSignIn ? 'google-sign-in' : ''} custom-button`} {...otherProps}

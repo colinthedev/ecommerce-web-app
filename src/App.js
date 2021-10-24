@@ -33,6 +33,7 @@ class App extends React.Component {
               ...snapShot.data()
             }
           });
+          console.log(this.state)
         });
       } else {
         this.setState({ currentUser: userAuth })
@@ -66,7 +67,10 @@ export default App;
 // |
 // -->Header
 // |
-// -->Sign-in-and-sign-up-->Sign-in-->Form-input
-//                       |          |
-//                       Sign-up--> |
-//                                  Custom-button
+// -->Sign-in-and-sign-up-->
+//                         |--> Sign-in
+//                         |           |   |--> Form-input
+//                         |           |-->|
+//                         |           |   |--> Custom-button
+//                         |--> Sign-up 
+//                                    
